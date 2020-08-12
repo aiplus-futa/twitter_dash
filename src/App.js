@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+import {Route, Switch} from 'react-router-dom';
+import Layout from './Layout/Layout';
+import home from './Components/Pages/Home/Home';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          70 DAYS PRE-BOOTCAMP
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Layout>
+        <div className="App-header">
+          <Switch>
+              <Route path='/' exact component={home} />
+          </Switch>
+        </div>
+          
+      </Layout>
     </div>
   );
 }
