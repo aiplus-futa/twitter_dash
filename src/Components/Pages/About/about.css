@@ -1,0 +1,112 @@
+.navbar{
+    width: auto;
+    padding-top: 30px;
+    padding-bottom:40px ;
+    background-color:#242628;
+    
+    }
+    
+    .nav-list{
+        list-style-type: none;
+        margin: 0;
+        padding-bottom: 5px;
+    }
+    .link-holder{
+        float: left;
+        font-size: 20px;
+    }
+    
+    .links{
+        text-decoration: none;
+        
+        padding:10px 50px 10px 50px ;
+        color:#FFBD20;
+        text-align: center;
+    }
+    .links:hover{
+        background-color: #2E86E0;
+        color: #f1f1f1;
+    }
+    
+    
+    *{
+        margin: 0%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header{
+        padding-top: 10px;
+        background-color:#DBE8E1 ;
+        padding-bottom: 50px;
+        border-bottom:2px solid #000 ;
+        }
+    
+    
+    .write-up{
+        margin-left: 100px;
+        margin-right:100px;
+        display: block;
+        text-align: justify;
+        
+    }
+    .bottom{
+        padding-top: 30px;
+        padding-bottom: 50px;
+        background-color: #E5A298;
+        border-bottom:2px solid #000;
+    }
+    .headings{
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 30x;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+    /* Style all font awesome icons */
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50px;
+        margin-right: 10px;
+      }
+    
+      .fa:hover{
+          opacity: .6;
+          transition: .4s;
+      }
+      /* Twitter */
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      
+      
+      
+    
+    .fa-github {
+        background: #695E93;
+        color: white;
+      }
+    
+    
+      footer{
+        padding-top: 10px;
+        background-color: #003B46;
+        color: #FFBB00;
+      }
+      .footer{
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          padding-bottom: 30px;
+      }
+      .foot-heading{
+          padding-top: 20px;
+          padding-bottom: 9px;
+          font-size: 30px;
+          
+      }
